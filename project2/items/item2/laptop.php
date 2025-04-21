@@ -1,9 +1,10 @@
 <?php
-class laptop
-{
-    function __construct()
+namespace Product\laptop;
+    class laptop
     {
-        echo "This is laptop class from item directory<br>";
+        function __construct()
+        {
+            echo "This is laptop class from item directory<br>";
+        }
     }
-}
 ?>
