@@ -1,0 +1,20 @@
+{
+    "name": "user/project1",
+    "description": "user of autoload",
+    "require": {},
+    "autoload": {
+        "files": [
+            "realme/realme2.php",
+            "redmi/redmi2.php",
+            "redmi/redmi3.php"
+        ],
+        "classmap": [
+            "./realme/realme3.php",
+            "./redmi/redmi4.php",
+            "./myClass/"
+        ],
+        "exclude-from-classmap": [
+            "./myClass/class2.php"
+        ]
+    }
+}
