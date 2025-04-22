@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#accept loading of actual files and directories
+RewriteCond %{REQUEST_FILE} !-f
+RewriteCond %{REQUEST_FILE} !-d
+
+#send everything else to index page
+RewriteRule ^$ index.php?url=home [QSA,L]
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
