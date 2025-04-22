@@ -1,10 +1,11 @@
 {
-    "require": {
-        "dompdf/dompdf": "^3.1"
-    },
+    "name": "sid/composer_php",
+    "description": "woking on composer",
+    "require": {},
     "autoload": {
         "psr-4": {
-            "Product\\laptop\\": "items/item2"
+            "Product\\books\\":"items/item1",
+            "Product\\laptop\\":"items/item2"
         }
     }
 }
