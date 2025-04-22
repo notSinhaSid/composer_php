@@ -1,0 +1,12 @@
+{
+    "name": "sid/psr4",
+    "description": "testing psr4",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Product\\item1\\":"items/item1/",
+            "Product\\item2\\":"items/item2/",
+            "Product\\item3\\": "items/item3/"
+        }
+    }
+}
